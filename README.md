@@ -82,8 +82,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/imaginify.git
-cd imaginify
+git clone https://github.com/Yola21/snap-craft.git
+cd snap-craft
 ```
 
 **Installation**

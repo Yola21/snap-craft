@@ -10,6 +10,7 @@ import { getUserById } from "@/lib/actions/user.actions";
 const Profile = async ({ searchParams }: SearchParamProps) => {
   const page = Number(searchParams?.page) || 1;
   const { userId } = auth();
+  console.log({userId})
 
   if (!userId) redirect("/sign-in");
 
